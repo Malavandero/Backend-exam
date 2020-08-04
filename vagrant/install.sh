@@ -13,7 +13,6 @@ add-apt-repository ppa:ondrej/php
 apt update -y
 apt upgrade -y
 
-apt remove -y --auto-remove git
 apt install -y nginx
 apt install -y php7.4 php7.4-cli php7.4-fpm php7.4-json php7.4-pdo php7.4-mysql php7.4-zip php7.4-mbstring php7.4-curl php7.4-xml php7.4-bcmath php7.4-json php7.4-xdebug
 apt install -y composer
@@ -62,6 +61,8 @@ cd /var/www/exam || return
 
 
 echo "cd /var/www/exam" >> /home/vagrant/.bashrc
+
+apt remove -y --auto-remove git
 
 echo ""
 echo "DONE :), have a nice coding! https://192.168.12.100/"
