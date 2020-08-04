@@ -31,8 +31,9 @@ service mysql restart
 systemctl disable nginx
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt -subj "/C=ES/ST=Barcelona/L=Exam/O=Dis/CN=exam.dev"
 ln -s /var/www/exam/nginx.conf /etc/nginx/sites-enabled/exam
+rm /etc/nginx/sites-enabled/default
 mkdir -p /var/log/nginx/exam
-cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.originalBKP
+cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.original
 sed -i 's/http {/http {\n\n        ##\n        # Custom Settings\n        ##\n        client_max_body_size 200m;/' /etc/nginx/nginx.conf
 service nginx restart
 systemctl enable nginx
@@ -63,5 +64,5 @@ cd /var/www/exam || return
 echo "cd /var/www/exam" >> /home/vagrant/.bashrc
 
 echo ""
-echo "DONE :), have a nice coding! https://192.168.12.90/"
+echo "DONE :), have a nice coding! https://192.168.12.100/"
 echo ""
