@@ -1,3 +1,5 @@
+![GitHub Logo](logo_ivoox.png)
+
 # EXAMEN
 
 **REQUISITOS PREVIOS:**
@@ -36,7 +38,7 @@ $ cd vagrant
 $ vagrant up
 ```
 
-**7 - Verify** - comprueba que todo funcione correctramente
+**7 - Check** - comprueba que todo funcione correctramente
 ```bash
 $ cd vagrant
 $ vagrant ssh
@@ -45,7 +47,7 @@ $ exit
 visita http://192.168.12.100/
 ```
 
-**EMPIEZA EL EXAMEN:**
+**EL EXAMEN:**
 
 Actualmente este repositorio contiene un proyecto Symfony 5 vacío. La prueba consiste en hacer un pull request a este mismo repositorio, para conseguir desarrollar una pequeña API REST:
 
@@ -55,16 +57,19 @@ Actualmente este repositorio contiene un proyecto Symfony 5 vacío. La prueba co
     - Empleado (N)
         - Nombre
         - Fecha de contratación
+        
 - Persistir las entidades en MySQL en la base de datos `exam` ya instalada
     - Host: 127.0.0.1
     - User: exam
     - Pass: qwerty
     - Version: 5.7
+    
 - Crear los recursos o endpoints necesarios en la API para poder realizar las siguientes acciones:
     - Crear Empresas y empleados
     - Añadir un empleado a una empresa
     - Eliminar un empleado
     - Modificar un empleado
+    
 - *IMPORTANTE:* Un requisito de nuestra API és que a las empresas cuyo nombre empiezan por la letra A, sólo se podrán tener empleados cuyo nombre
  empiecen por la letra A.
 - Una vez terminado haz un pull request y revisaremios tu examen.
@@ -76,4 +81,3 @@ Se valorarán los siguientes puntos "extra":
  - Documentación de los endpoints de la API.
  - El uso de el componente symfony/serializer.
  - Crear un comando Symfony que permita añadir empleados a una empresa.
- 
