@@ -48,7 +48,7 @@ $ exit
 visita http://192.168.12.100/
 ```
 
-**8 - Cuenta en GitHub** - Neceitaras una cuenta en github para hacer el fork y posterior pull request a nuestro repositorio.
+**8 - Cuenta en GitHub** - Neceitaras una cuenta en github para hacer el fork y posterior pull request a nuestro repositorio. https://www.youtube.com/watch?v=_M8oalUyz10
 
 # EL EXAMEN
 
