@@ -59,6 +59,9 @@ mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 # Project setup
 cd /var/www/exam || return
 su vagrant
+rm -Rf vendor
+rm -Rf composer.lock
+composer clear-cache
 composer install
 
 echo "cd /var/www/exam" >> /home/vagrant/.bashrc
@@ -66,5 +69,5 @@ echo "cd /var/www/exam" >> /home/vagrant/.bashrc
 apt remove -y --auto-remove git
 
 echo ""
-echo "DONE :), have a nice coding! https://192.168.12.100/"
+echo "DONE :), have a nice coding! http://192.168.12.100/"
 echo ""
