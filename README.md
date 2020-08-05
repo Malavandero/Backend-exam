@@ -1,8 +1,6 @@
 ![GitHub Logo](logo_ivoox.png)
 
-# EXAMEN
-
-**REQUISITOS PREVIOS:**
+#REQUISITOS PREVIOS:
 
 **1 - Cliente Git** , descargar e instalar : https://git-scm.com/downloads
 ```bash
@@ -47,7 +45,7 @@ $ exit
 visita http://192.168.12.100/
 ```
 
-**EL EXAMEN:**
+# EL EXAMEN
 
 Actualmente este repositorio contiene un proyecto Symfony 5 vacío. La prueba consiste en hacer un pull request a este mismo repositorio, para conseguir desarrollar una pequeña API REST:
 
