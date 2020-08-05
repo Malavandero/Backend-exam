@@ -17,9 +17,9 @@ apt install -y nginx
 apt install -y php7.4 php7.4-cli php7.4-fpm php7.4-json php7.4-pdo php7.4-mysql php7.4-zip php7.4-mbstring php7.4-curl php7.4-xml php7.4-bcmath php7.4-json php7.4-xdebug
 apt install -y composer
 # Install MySQL Server in a Non-Interactive mode. Default root password will be "qwerty"
-echo "mysql-server-5.6 mysql-server/root_password password qwerty" | sudo debconf-set-selections
-echo "mysql-server-5.6 mysql-server/root_password_again password qwerty" | sudo debconf-set-selections
-apt install -y mysql-server-5.6
+echo "mysql-server-5.7 mysql-server/root_password password qwerty" | sudo debconf-set-selections
+echo "mysql-server-5.7 mysql-server/root_password_again password qwerty" | sudo debconf-set-selections
+apt install -y mysql-server-5.7
 mysql_secure_installation
 sed -i "s/.*bind-address.*/bind-address = 0.0.0.0/" /etc/mysql/mysql.conf.d/mysqld.cnf
 mysql -uroot -p -e 'USE mysql; UPDATE `user` SET `Host`="%" WHERE `User`="root" AND `Host`="localhost"; DELETE FROM `user` WHERE `Host` != "%" AND `User`="root"; FLUSH PRIVILEGES;'
