@@ -58,7 +58,8 @@ mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 
 # Project setup
 cd /var/www/exam || return
-
+su vagrant
+composer install
 
 echo "cd /var/www/exam" >> /home/vagrant/.bashrc
 
