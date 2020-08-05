@@ -48,6 +48,8 @@ $ exit
 visita http://192.168.12.100/
 ```
 
+**8 - Cuenta en GitHub** - Neceitaras una cuenta en github para hacer el fork y posterior pull request a nuestro repositorio.
+
 # EL EXAMEN
 
 Actualmente este repositorio contiene un proyecto Symfony 5 vacío. La prueba consiste en hacer un pull request a este mismo repositorio, para conseguir desarrollar una pequeña API REST:
