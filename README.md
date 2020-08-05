@@ -83,4 +83,4 @@ Se valorarán los siguientes puntos "extra":
  - Gestión de Excepciones.
  - Documentación de los endpoints de la API.
  - El uso de el componente symfony/serializer.
- - Crear un comando Symfony que permita añadir empleados a una empresa.
+ - Crear un comando CLI de Symfony que permita añadir empleados a una empresa.
