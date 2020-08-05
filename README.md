@@ -10,22 +10,25 @@ $ git config --global core.eol lf
 # Set text=auto in your .gitattributes for all files:
 * text=auto
 ```
+
 **2 - VirtualBox**, descargar e instalar : https://www.virtualbox.org/wiki/Downloads
 ```bash
 $ sudo apt install virtualbox
 ```
+
 **3 - Vagrant**, descargar e instalar : https://www.vagrantup.com/downloads.html
 ```bash
 $ sudo apt install vagrant
 $ vagrant plugin install vagrant-vbguest
 ```
+
 **4 - Clone repository** - https://github.com/Malavandero/Backend-exam
 ```bash
 $ git clone https://github.com/Malavandero/Backend-exam exam
 $ cd exam
 ```
 
-**5 - Setup Virtual Machine** - modifica la variable LOCAL_SRC_PATH del archivo *vagrant/Vagrantfile* (dentro del proyecto), y pon la URL absoluta hacia tu proyecto clonado en el paso anterior
+**5 - Setup Virtual Machine** - modifica la variable LOCAL_SRC_PATH del archivo *vagrant/Vagrantfile* linea 1 (dentro del proyecto clonado), y pon la ruta absoluta hacia tu proyecto clonado en el paso anterior
 ```bash
 LOCAL_SRC_PATH = "/Users/eduard/PhpstormProjects/exam"
 ```

@@ -1,5 +1,4 @@
 LOCAL_SRC_PATH = "/Users/eduard/PhpstormProjects/exam"
-PRIVATE_IP = "192.168.12.100"
 
 $script_once = <<-SCRIPT
 if [ !  -f /root/.provisioned ]; then
@@ -12,6 +11,7 @@ $script_always = <<-SCRIPT
 systemctl start nginx
 SCRIPT
 
+PRIVATE_IP = "192.168.12.100"
 VM_SRC_PATH = "/var/www/exam/"
 
 Vagrant.configure("2") do |config|
