@@ -2,6 +2,8 @@
 
 #REQUISITOS PREVIOS:
 
+Si tienes cualquier problema con la instalación, puedes ponerte en contacto con eduard.jimenez@ivoox.com. Solo avaluaremos la parte de código, por lo tanto no tengas miedo a preguntar cualquier duda sobre los requisitos prévios.
+
 **1 - Cliente Git** , descargar e instalar : https://git-scm.com/downloads
 ```bash
 $ sudo apt install git
@@ -16,7 +18,7 @@ $ git config --global core.eol lf
 $ sudo apt install virtualbox
 ```
 
-**3 - Vagrant**, descargar e instalar : https://www.vagrantup.com/downloads.html
+**3 - Vagrant**, descargar e instalar : https://www.vagrantup.com/downloads.html (importante ejecutar el segundo comando)
 ```bash
 $ sudo apt install vagrant
 $ vagrant plugin install vagrant-vbguest
