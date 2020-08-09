@@ -1,6 +1,7 @@
 #!/bin/bash
 
 composer require symfony/serializer
+composer require symfony/property-access
 composer require nelmio/api-doc-bundle:^3.0
 composer require --dev symfony/phpunit-bridge
 composer require symfony/orm-pack
