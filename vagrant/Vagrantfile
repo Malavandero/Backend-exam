@@ -1,4 +1,4 @@
-LOCAL_SRC_PATH = "/Users/eduard/PhpstormProjects/exam"
+LOCAL_SRC_PATH = "/home/rafa/Backend-exam"
 
 $script_once = <<-SCRIPT
 if [ !  -f /root/.provisioned ]; then
