@@ -7,4 +7,6 @@ composer require --dev symfony/phpunit-bridge
 composer require symfony/orm-pack
 composer require --dev symfony/maker-bundle
 composer require annotations
+composer require symfony/orm-pack
+composer require --dev symfony/maker-bundle
 composer require --dev dama/doctrine-test-bundle
