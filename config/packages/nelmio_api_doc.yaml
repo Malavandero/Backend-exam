@@ -1,0 +1,11 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: EXAM
+            description: This is the documentation for Exam API
+            version: 1.0.0
+    areas:
+        path_patterns: # an array of regexps
+            - ^/company
+            - ^/employee
+

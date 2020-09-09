@@ -1,4 +1,4 @@
-LOCAL_SRC_PATH = "/Users/eduard/PhpstormProjects/exam"
+LOCAL_SRC_PATH = 'C:\Users\Edgar\code\exam'
 
 $script_once = <<-SCRIPT
 if [ !  -f /root/.provisioned ]; then
