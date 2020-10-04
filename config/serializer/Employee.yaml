@@ -1,0 +1,10 @@
+App\Domain\Employee\Employee:
+  attributes:
+    id:
+      groups: ['api']
+    name:
+      groups: ['api']
+    hiringDate:
+      groups: ['api']
+    companyId:
+      groups: ['api']

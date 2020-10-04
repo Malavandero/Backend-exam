@@ -1,0 +1,6 @@
+App\Domain\Company\Company:
+  attributes:
+    id:
+      groups: ['api']
+    name:
+      groups: ['api']
